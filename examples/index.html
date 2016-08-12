@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Coordinated Capture Demo</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<ol>
+  <li>
+    Install the extension - a button <img class="ext-button" src="../src/images/disabled.png" alt=""> will be added to
+    the right of the address bar
+  </li>
+  <li>
+    Click on the extension button to enable it - a green dot will be added to let you know it's ready
+    <img class="ext-button" src="../src/images/ready.png" alt="">
+  </li>
+  <li>
+    <button id="start" disabled>Start recording</button>
+  </li>
+  <li>
+    <button id="pause" disabled>Pause recording</button>
+    <button id="resume" disabled>Resume recording</button>
+    <button id="stop" disabled>Stop recording</button>
+  </li>
+  <li>
+    <button id="download" disabled>Download results</button>
+  </li>
+</ol>
+
+<script src="../api.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>

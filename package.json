@@ -1,0 +1,27 @@
+{
+  "name": "chrome-coordinated-capture",
+  "version": "1.0.0",
+  "description": "An extension for Google Chrome that allows page scripts to coordinate a recording of what is happening in a tab and to download the resulting video file",
+  "main": "api.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "build": "npm run build:docs",
+    "build:docs": "jsdoc2md api.js > docs/api.md",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dchekanov/chrome-coordinated-capture.git"
+  },
+  "author": "Dmitry Chekanov <d.chekanov@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dchekanov/chrome-coordinated-capture/issues"
+  },
+  "homepage": "https://github.com/dchekanov/chrome-coordinated-capture#readme",
+  "devDependencies": {
+    "jsdoc-to-markdown": "^1.3.7"
+  }
+}

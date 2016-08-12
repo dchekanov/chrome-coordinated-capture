@@ -1,0 +1,17 @@
+body {
+  font-size: 16px;
+}
+
+li {
+  margin-bottom: 1rem;
+}
+
+button {
+  padding: .5rem;
+}
+
+.ext-button {
+  position: relative;
+  top: -3px;
+  vertical-align: middle;
+}
