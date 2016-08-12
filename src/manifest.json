@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Coordinated Capture",
   "description": "A tool for developers to record a video of what is happening on a page",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Dmitry Chekanov",
   "permissions": [
     "tabCapture",
