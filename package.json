@@ -1,6 +1,6 @@
 {
   "name": "chrome-coordinated-capture",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An extension for Google Chrome that allows page scripts to coordinate a recording of what is happening in a tab and to download the resulting video file",
   "main": "api.js",
   "directories": {
