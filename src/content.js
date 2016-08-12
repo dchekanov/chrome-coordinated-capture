@@ -14,6 +14,8 @@ chrome.runtime.onMessage.addListener(function(message) {
 
 // listen for commands from page scripts
 window.addEventListener('message', function(event) {
+  if (!event.data || typeof event.data != 'string') return;
+
   // pass commands encoded like 'CoordinatedCapture.command('parameter')' to the background page
   var re = new RegExp(namespace + '\.(\\w+)\\(\'(.*)\'\\)');
   var matched = event.data.match(re);
