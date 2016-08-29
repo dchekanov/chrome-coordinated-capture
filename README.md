@@ -27,7 +27,7 @@ and you don't need to fiddle with video editing software to crop it.
 
 ## How to use
 
-1. Install the extension.
+1. Install the extension - from the source code folder or from the [Chrome Web Store](https://chrome.google.com/webstore/detail/coordinated-capture/pggeecipjaeicimapbkddcdpkfogjckd).
 2. Include the [./api.js](./api.js) file to the page that will coordinate the recording.
 3. Use the API.
 
